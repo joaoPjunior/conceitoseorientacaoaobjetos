@@ -1,11 +1,14 @@
-const pessoa = {
-    Nome: "João Paulo",
-    Idade: 31,
-    Profissão:"Programador",
-    Sexo: "Masculino",
+const dados = {
+    nome: "João Paulo",
+    cidade: "Paraíba",
+    rua: "Avenida dos andradas",
+    numero: 47,
+    bairro: "Jardim santa isabel",
+    cep: 15570000,
     saudacao: function(){
-        console.log(`Olá meu nome é ${this.Nome}, tenho a idade de ${this.Idade} anos, trabalho como ${this.Profissão}, e me identifico como sexo ${this.Sexo}.`);
+        console.log(`Olá meu nome é ${this.nome}, moro na cidade de ${this.cidade}, na ${this.rua}, numero ${this.numero}, no bairro ${this.bairro} do cep ${this.cep}`)
     }
 }
 
-pessoa.saudacao()
+
+dados.saudacao();

@@ -1,17 +1,12 @@
 const cachorro = {
-    raca: "SRD",
-    uivar: function (){
-        console.log("AUUUUUUUUUUUUU");
+    uivar: function(){
+        console.log('AUUUUUUUU');
     },
-    latir: function(){
-        console.log("AU AU AU AU");
-    },
-    setRaca: function(raca){
-        this.raca = raca
+    rosnar: function(){
+        console.log('GRRRRRRRRRRRRRR');
     }
-    
-};
+}
 
-console.log(cachorro.raca);
-cachorro.setRaca("Pastor alemão");
-console.log(cachorro.raca);
+
+cachorro.uivar();
+cachorro.rosnar();

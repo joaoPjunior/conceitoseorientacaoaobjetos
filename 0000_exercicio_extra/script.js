@@ -1,11 +1,5 @@
-const dados = {
-    nome: "João",
-    idade: 27,
-    raca: "Pardo",
-}
+const planeta = ["Terra", "Venus", "Marte", "Jupter", "Saturno"]
 
-if((dados.nome === "João" && dados.idade === 27) && dados.raca === "Pardo"){
-    console.log("Usuário confirmado");
-}else {
-    console.log("Usuário incorreto!");
+for(i = 0; i <= planeta.length; i++){
+    console.log(planeta[i]);
 }
